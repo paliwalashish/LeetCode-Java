@@ -1,0 +1,2 @@
+# LeetCode-Java
+LeetCode fun
