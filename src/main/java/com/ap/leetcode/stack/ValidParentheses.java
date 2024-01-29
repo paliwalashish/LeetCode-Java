@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
+/**
+ *  LC: https://leetcode.com/problems/valid-parentheses/description/
+ *
+ */
 public class ValidParentheses {
 
     public boolean isValid(String s) {
@@ -24,6 +28,7 @@ public class ValidParentheses {
             } else {
                 stack.push(ch);
             }
+
         }
         return stack.isEmpty();
     }
