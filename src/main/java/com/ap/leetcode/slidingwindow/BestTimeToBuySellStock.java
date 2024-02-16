@@ -1,6 +1,6 @@
 package com.ap.leetcode.slidingwindow;
 
-public class MaxProfit {
+public class BestTimeToBuySellStock {
     public int maxProfit(int[] prices) {
         int left = 0;
         int right = 1;
